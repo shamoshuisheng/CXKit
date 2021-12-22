@@ -1,9 +1,9 @@
 {
   "name": "CXKit",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of CXKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/canxi/CXKit",
+  "homepage": "https://gitee.com/canxijie_admin/CXKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,39 @@
     "canxi": "shamoshuisheng@163.com"
   },
   "source": {
-    "git": "https://github.com/canxi/CXKit.git",
-    "tag": "0.1.0"
+    "git": "https://gitee.com/canxijie_admin/CXKit.git",
+    "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
-  "source_files": "CXKit/Classes/**/*"
+  "source_files": "CXKit/Classes/**/*",
+  "resource_bundles": {
+    "CXKit": [
+      "CXKit/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "WMZDialog": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "LYEmptyView": [
+
+    ],
+    "YYText": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "BAWKWebView": [
+
+    ],
+    "ZLPhotoBrowser": [
+
+    ]
+  }
 }

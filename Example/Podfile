@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'CXKit_Example' do
   pod 'CXKit', :path => '../'
@@ -8,6 +8,6 @@ target 'CXKit_Example' do
   target 'CXKit_Tests' do
     inherit! :search_paths
 
-    
+    pod 'FBSnapshotTestCase'
   end
 end

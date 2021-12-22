@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CXKit'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of CXKit.'
 
 # This description is used to generate tags and improve search results.
@@ -28,15 +28,18 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/shamoshuisheng/CXKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'CXKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'CXKit' => ['CXKit/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.resource_bundles = {
+     'CXKit' => ['CXKit/Assets/*']
+   }
+  s.dependency 'WMZDialog'
+ s.dependency 'MJRefresh'
+ s.dependency 'LYEmptyView'
+ s.dependency 'YYText'
+ s.dependency 'SDWebImage'
+ s.dependency 'BAWKWebView'
+ s.dependency 'ZLPhotoBrowser'
 end

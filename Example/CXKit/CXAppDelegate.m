@@ -2,17 +2,23 @@
 //  CXAppDelegate.m
 //  CXKit
 //
-//  Created by canxi on 12/22/2021.
-//  Copyright (c) 2021 canxi. All rights reserved.
+//  Created by hntnet on 12/15/2021.
+//  Copyright (c) 2021 hntnet. All rights reserved.
 //
 
 #import "CXAppDelegate.h"
-
+#import "CXViewController.h"
 @implementation CXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+   
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[[CXViewController alloc]init]];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

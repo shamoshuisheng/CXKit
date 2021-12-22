@@ -176,10 +176,24 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/BAWKWebView/BAWKWebView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CXKit/CXKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LYEmptyView/LYEmptyView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WMZDialog/WMZDialog.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YYText/YYText.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ZLPhotoBrowser/ZLPhotoBrowser.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/BAWKWebView/BAWKWebView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CXKit/CXKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LYEmptyView/LYEmptyView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WMZDialog/WMZDialog.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YYText/YYText.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ZLPhotoBrowser/ZLPhotoBrowser.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

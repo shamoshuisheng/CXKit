@@ -1,16 +1,59 @@
 PODS:
-  - CXKit (0.1.0)
+  - BAWKWebView (1.0.9)
+  - CXKit (0.0.1):
+    - BAWKWebView
+    - LYEmptyView
+    - MJRefresh
+    - SDWebImage
+    - WMZDialog
+    - YYText
+    - ZLPhotoBrowser
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LYEmptyView (1.3.1)
+  - MJRefresh (3.7.5)
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+  - WMZDialog (1.4.3)
+  - YYText (1.0.7)
+  - ZLPhotoBrowser (4.2.0):
+    - ZLPhotoBrowser/Core (= 4.2.0)
+  - ZLPhotoBrowser/Core (4.2.0)
 
 DEPENDENCIES:
   - CXKit (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - BAWKWebView
+    - FBSnapshotTestCase
+    - LYEmptyView
+    - MJRefresh
+    - SDWebImage
+    - WMZDialog
+    - YYText
+    - ZLPhotoBrowser
 
 EXTERNAL SOURCES:
   CXKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CXKit: f9b0c8c0abbbcda1152c7449e808afbe0f52e6dd
+  BAWKWebView: a45b5c77424a015c91c6684f03392d981932f909
+  CXKit: 591fe5e3dd73ded5b2a8b1068d192e6c96fe3132
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LYEmptyView: b6d418cfa38b78df0cf243f9a9c25ccbdc399922
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  WMZDialog: 7cc794ed0c98ad04d3dbb0e25ce898f17128daee
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+  ZLPhotoBrowser: 602d505d4f2cf7f309ce973c4353d33e85216d58
 
-PODFILE CHECKSUM: d325662b20dec0490dd4e615227ee687d9213e70
+PODFILE CHECKSUM: d978adaa3e732f5acfb482df7e61f72ac295ced3
 
 COCOAPODS: 1.11.2
