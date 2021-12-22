@@ -1,0 +1,6 @@
+framework module CXKit {
+  umbrella header "CXKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "CXKit",
+  "version": "0.1.0",
+  "summary": "A short description of CXKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/canxi/CXKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "canxi": "shamoshuisheng@163.com"
+  },
+  "source": {
+    "git": "https://github.com/canxi/CXKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CXKit/Classes/**/*"
+}

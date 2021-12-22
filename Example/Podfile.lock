@@ -1,0 +1,16 @@
+PODS:
+  - CXKit (0.1.0)
+
+DEPENDENCIES:
+  - CXKit (from `../`)
+
+EXTERNAL SOURCES:
+  CXKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CXKit: f9b0c8c0abbbcda1152c7449e808afbe0f52e6dd
+
+PODFILE CHECKSUM: d325662b20dec0490dd4e615227ee687d9213e70
+
+COCOAPODS: 1.11.2
