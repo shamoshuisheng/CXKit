@@ -18,7 +18,7 @@ PODS:
   - SDWebImage (5.12.1):
     - SDWebImage/Core (= 5.12.1)
   - SDWebImage/Core (5.12.1)
-  - WMZDialog (1.4.3)
+  - WMZDialog (1.4.5)
   - YYText (1.0.7)
   - ZLPhotoBrowser (4.2.0):
     - ZLPhotoBrowser/Core (= 4.2.0)
@@ -45,12 +45,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BAWKWebView: a45b5c77424a015c91c6684f03392d981932f909
-  CXKit: 591fe5e3dd73ded5b2a8b1068d192e6c96fe3132
+  CXKit: b9b3f9d82b3e001d93c70e211d8efd67d7b97a2c
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   LYEmptyView: b6d418cfa38b78df0cf243f9a9c25ccbdc399922
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
-  WMZDialog: 7cc794ed0c98ad04d3dbb0e25ce898f17128daee
+  WMZDialog: 0cb37d656a5929cd5a13597b70b041355c76329b
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   ZLPhotoBrowser: 602d505d4f2cf7f309ce973c4353d33e85216d58
 

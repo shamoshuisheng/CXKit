@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "summary": "A short description of CXKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://gitee.com/canxijie_admin/CXKit",
+  "homepage": "https://github.com/shamoshuisheng/CXKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "canxi": "shamoshuisheng@163.com"
   },
   "source": {
-    "git": "https://gitee.com/canxijie_admin/CXKit.git",
+    "git": "https://github.com/shamoshuisheng/CXKit.git",
     "tag": "0.0.1"
   },
   "platforms": {

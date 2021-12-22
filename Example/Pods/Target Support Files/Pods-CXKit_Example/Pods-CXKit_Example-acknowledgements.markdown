@@ -28,7 +28,7 @@ SOFTWARE.
 
 ## CXKit
 
-Copyright (c) 2021 hntnet <shamoshuisheng@163.com>
+Copyright (c) 2021 canxi <shamoshuisheng@163.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
